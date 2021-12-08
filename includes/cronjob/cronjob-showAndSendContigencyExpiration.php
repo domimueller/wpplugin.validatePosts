@@ -109,8 +109,8 @@ add_action( 'vernissageContingencyExpired', 'vernissageCheckContigency' );
 
 		$message =  $introduction . $expiredString . $validString;	
 
-	    wp_mail( 'dominique_mueller@gmx.ch', 'Kontigente', $message );
-	    return $message;
+	    //wp_mail( 'dominique_mueller@gmx.ch', 'Kontigente', $message );
+	    echo $message;
 
 	}
 
