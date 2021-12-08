@@ -1,0 +1,9 @@
+/* ### CUSTOM CODE FOR SPONSOR PLUGIN */
+body.page-template-template-events .sponsor-row,  body.page-template-template-events .sponsor-col {margin-top: 40px; margin-bottom: 40px; }
+.sponsor-row .image-container {margin-top: 30px; }
+.sponsor-row .card {box-shadow: 0 1px 3px rgb(34 40 49 / 20%); border-radius: 3px; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; padding: 3rem 2.75rem 1.5rem; min-height: 360px;}
+.sponsor-row .sponsor-col, .image-container {text-align: center;}
+
+.sponsor-row article.smallSponsorLayout h2 {font-size: 16px;}
+.sponsor-row article.smallSponsorLayout .image-container {margin-bottom: 0px; margin-top: 0px;}
+.sponsor-row article.smallSponsorLayout .card {padding: 3rem 2.75rem 1.5rem; min-height: 260px;}
