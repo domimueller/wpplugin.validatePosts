@@ -25,6 +25,10 @@ add_action( 'wp_enqueue_scripts', 'postValidator_customcss');
 
 
 /* INCLUDE FILES */
-include $plugin_url . '/includes/advancedCustomFields.php';
+include $plugin_url . '/includes/cronjob/checkContigencyFunction.php';
+include $plugin_url . '/includes/cronjob/checkDateFunction.php';
+include $plugin_url . '/includes/cronjob/cronjob-checkDate.php';
+include $plugin_url . '/includes/cronjob/cronjob-showAndSendContigencyExpiration.php';
+include $plugin_url . '/includes/businessLogic.php';
 
 ?>
