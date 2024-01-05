@@ -76,7 +76,7 @@
 
 		eval("\$msg = \"$msg\";");
 
-		$receipients = array('info@vernissage4u.com', 'dominique_mueller@gmx.ch');
+		$receipients = array('info@vernissage4u.com');
 	    
 	    wp_mail( $receipients, 'Inserate überprüft', $msg );
 

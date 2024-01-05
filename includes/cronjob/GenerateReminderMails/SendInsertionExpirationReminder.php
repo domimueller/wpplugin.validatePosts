@@ -76,7 +76,7 @@
 				eval("\$msg = \"$msg\";");
 
 
-				$receipients = array( $author_mail, 'dominique_mueller@gmx.ch', 'info@vernissage4u.com' );
+				$receipients = array( $author_mail, 'info@vernissage4u.com' );
 		    	wp_mail( $receipients, 'Dein Inserat auf vernissage4u läuft aus', $msg );			
 
 				
